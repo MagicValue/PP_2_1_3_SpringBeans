@@ -4,10 +4,11 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("cat")
-public class Cat extends Animal {
+@Qualifier("dog")
+public class Dog extends Animal {
     @Override
     public String toString() {
-        return "I'm a Cat";
+        return "I'm a Dog";
     }
+
 }
